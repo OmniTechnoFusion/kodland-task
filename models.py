@@ -13,4 +13,4 @@ class Question(db.Model):
 class UserScore(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(50), unique=True, nullable=False)
-    highest_score = db.Column(db.Integer, default=0)
+    highest_score = db.Column(db.Integer, default=0) 
